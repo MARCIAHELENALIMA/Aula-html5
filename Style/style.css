@@ -1,5 +1,5 @@
 body {
-    background: rgb(252, 230, 234);
+    background: #fad3ea;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 900px;
     margin: auto;
@@ -18,7 +18,7 @@ color: rgb(0, 0, 0);
 }
 a {
     text-decoration: line-through;
-    color: blueviolet;
+    color: #7c064b;
 }
 .post-title {
     font-size: 16px;
@@ -28,7 +28,7 @@ a {
 }
      
 .post {
-    background: rgb(243, 166, 210);
+    background: #fa91ce;
     padding: 10px;
     border: 3px solid black;
     margin-bottom: 15px;
@@ -52,3 +52,19 @@ a {
     color: blue;
     text-decoration: none;
 }
+.libutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #f00b91;
+    font-family: "SF Pro Text", Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
