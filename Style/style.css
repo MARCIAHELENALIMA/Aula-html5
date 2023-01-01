@@ -1,6 +1,7 @@
 body {
     background: rgb(252, 230, 234);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
 }
 .photo{
     border: 1px solid black;
